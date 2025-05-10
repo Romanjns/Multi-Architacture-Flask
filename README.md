@@ -200,7 +200,6 @@ The project consists of the following three tiers:
 - Attach the ALB to your ECS Service
 - ALB listens on ports 80 and 443
 
-![AWS Infrastructure](https://via.placeholder.com/800x400?text=AWS+Infrastructure+Diagram)
 
 ---
 
@@ -229,20 +228,4 @@ Through this project, we designed and deployed a production-ready cloud architec
 
 The application is now robust, scalable, secure, and cloud-native.
 
----
 
-## 9. Screenshots
-
-*[The following screenshots would be included in the final document]*
-
-- VPC/Subnets overview
-- Routing Tables
-- Security Groups
-- EC2 Nginx setup
-- SSL Certificate (Certbot)
-- RDS Database info
-- ECS Task Definition
-- ECS Service Health
-- Bastion Host connected to RDS
-- Load Balancer Target Group
-- Flask App working over HTTPS
