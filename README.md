@@ -29,7 +29,7 @@ The project consists of the following three tiers:
 - **Internet Gateway**: Provides internet access to public subnets
 - **ECR Repository**: Stores the Flask Docker image
 
-![Architecture Diagram](https://via.placeholder.com/800x500?text=Multi-Tier+Cloud+Architecture+Diagram)
+![cloud3 drawio (2)](https://github.com/user-attachments/assets/1b605206-452d-4e3e-afbb-02745536cb8a)
 
 ---
 
