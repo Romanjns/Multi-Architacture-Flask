@@ -39,7 +39,7 @@ The project consists of the following three tiers:
 |------|--------|-------------|------|----------|-------------|
 | Nginx SG | 0.0.0.0/0 | EC2 Nginx | 80, 443 | TCP | Allow HTTP/HTTPS |
 | Bastion SG | My IP | Bastion Host | 22 | TCP | Allow SSH from my IP |
-| App SG | Nginx SG | ECS Task | 5000 | TCP | Allow app traffic |
+| App SG | Nginx SG | ECS Task | 80 | TCP | Allow app traffic |
 | DB SG | App SG | RDS DB | 3306 | TCP | Allow only app to connect |
 | DB SG | Bastion SG | RDS DB | 3306 | TCP | Allow Bastion to connect |
 
