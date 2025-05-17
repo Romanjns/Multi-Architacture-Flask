@@ -89,13 +89,13 @@ The project consists of the following three tiers:
 - Install Nginx:
   ```bash
   sudo yum update -y
-  sudo amazon-linux-extras enable nginx1
   sudo yum install nginx -y
   sudo systemctl start nginx
   sudo systemctl enable nginx
 
   ```
 - Test Nginx page by accessing the public IP
+- go to duckdns create domain update ip with public ip of ec2
 - Configure Nginx to reverse proxy requests to the Flask app running inside ECS:
 
   **Example Nginx Configuration:**
