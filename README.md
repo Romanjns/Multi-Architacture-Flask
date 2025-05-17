@@ -88,8 +88,12 @@ The project consists of the following three tiers:
 - Assign a public IP
 - Install Nginx:
   ```bash
-  sudo apt update
-  sudo apt install nginx -y
+  sudo yum update -y
+  sudo amazon-linux-extras enable nginx1
+  sudo yum install nginx -y
+  sudo systemctl start nginx
+  sudo systemctl enable nginx
+
   ```
 - Test Nginx page by accessing the public IP
 - Configure Nginx to reverse proxy requests to the Flask app running inside ECS:
